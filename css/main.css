@@ -33,7 +33,7 @@ body {
 
 #lineText {
 	display: block;
-	width: 850px;
+	width: 75%;
 }
 
 #lineSection {
@@ -42,28 +42,20 @@ body {
 	display: flex;
  	justify-content: center;
  	height: 100%; 
+ 	line-height: 25px;
+ 	text-align: justify;
+ 	text-align-last: center;
+
   }
 
 #lineSection p {
 	font-family: 'Libre Franklin', Sans-Serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: white;
 	margin-bottom: 20px;
+	letter-spacing: 1.5px;
 }
 
-.column {
-	width: 390px;
-	height: 280px;
-	background-color: red;
-}
 
-#columnArea {
-	margin-top: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
-	display: flex;
-	justify-content: space-between;
-	height: 100%;
-}
 
 
